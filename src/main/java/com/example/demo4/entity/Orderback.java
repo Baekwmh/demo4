@@ -10,7 +10,6 @@ import javax.persistence.Id;
 @Entity//绑定数据库表
 @Data
 public class Orderback {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
